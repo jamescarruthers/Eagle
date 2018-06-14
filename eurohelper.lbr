@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -212,7 +212,7 @@
 <wire x1="0" y1="128.5" x2="0" y2="120.88" width="0" layer="51" style="shortdash"/>
 <wire x1="0" y1="120.88" x2="0" y2="7.62" width="0" layer="51" style="shortdash"/>
 <wire x1="0" y1="7.62" x2="0" y2="0" width="0" layer="51" style="shortdash"/>
-<wire x1="0" y1="7.62" x2="30.48" y2="7.62" width="0" layer="51"/>
+<wire x1="0" y1="7.62" x2="30.48" y2="7.62" width="0" layer="51" style="shortdash"/>
 <wire x1="0" y1="120.88" x2="30.48" y2="120.88" width="0" layer="51" style="shortdash"/>
 <wire x1="28.575" y1="8.89" x2="1.905" y2="8.89" width="0" layer="20"/>
 <wire x1="1.905" y1="8.89" x2="1.27" y2="9.525" width="0" layer="20" curve="-90"/>
@@ -290,6 +290,40 @@
 <circle x="7.5" y="125.5" radius="1.6" width="0.000253125" layer="51"/>
 <wire x1="25.4" y1="0" x2="25.4" y2="128.5" width="0" layer="51" style="shortdash"/>
 <wire x1="0" y1="129.54" x2="50.8" y2="129.54" width="0.127" layer="21" style="shortdash"/>
+</package>
+<package name="EURO_PANEL_4HP">
+<wire x1="0.16" y1="0" x2="20.16" y2="0" width="0" layer="20"/>
+<wire x1="20.16" y1="128.5" x2="0.16" y2="128.5" width="0" layer="20"/>
+<wire x1="0.16" y1="0" x2="0.16" y2="128.5" width="0" layer="20"/>
+<wire x1="20.16" y1="0" x2="20.16" y2="128.5" width="0" layer="20"/>
+<hole x="7.5" y="125.5" drill="3.2"/>
+<hole x="7.5" y="3" drill="3.2"/>
+</package>
+<package name="EURO_PANEL_6HP">
+<wire x1="0.24" y1="0" x2="30.24" y2="0" width="0" layer="20"/>
+<wire x1="30.24" y1="128.5" x2="0.24" y2="128.5" width="0" layer="20"/>
+<wire x1="0.24" y1="0" x2="0.24" y2="128.5" width="0" layer="20"/>
+<wire x1="30.24" y1="0" x2="30.24" y2="128.5" width="0" layer="20"/>
+<hole x="7.5" y="125.5" drill="3.2"/>
+<hole x="7.5" y="3" drill="3.2"/>
+</package>
+<package name="EURO_PANEL_8HP">
+<wire x1="0.17" y1="0" x2="40.47" y2="0" width="0" layer="20"/>
+<wire x1="40.47" y1="128.5" x2="0.17" y2="128.5" width="0" layer="20"/>
+<wire x1="0.17" y1="0" x2="0.17" y2="128.5" width="0" layer="20"/>
+<wire x1="40.47" y1="0" x2="40.47" y2="128.5" width="0" layer="20"/>
+<hole x="7.5" y="3" drill="3.2"/>
+<hole x="7.5" y="125.5" drill="3.2"/>
+</package>
+<package name="EURO_PANEL_10HP">
+<wire x1="0.15" y1="0" x2="50.65" y2="0" width="0" layer="20"/>
+<wire x1="50.65" y1="128.5" x2="0.15" y2="128.5" width="0" layer="20"/>
+<wire x1="0.15" y1="0" x2="0.15" y2="128.5" width="0" layer="20"/>
+<wire x1="50.65" y1="0" x2="50.65" y2="128.5" width="0" layer="20"/>
+<hole x="7.5" y="3" drill="3.2"/>
+<hole x="7.5" y="125.5" drill="3.2"/>
+<hole x="43.06" y="125.5" drill="3.2"/>
+<hole x="43.06" y="3" drill="3.2"/>
 </package>
 </packages>
 <symbols>
